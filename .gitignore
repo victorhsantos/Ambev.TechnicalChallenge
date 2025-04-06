@@ -52,3 +52,6 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+/.vs/Ambev.TechnicalChallenge/CopilotIndices/0.2.1657.32929
+/.vs/Ambev.TechnicalChallenge/FileContentIndex
+/.vs
