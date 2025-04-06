@@ -40,6 +40,10 @@ ScaffoldingReadMe.txt
 ~$*
 *~
 CodeCoverage/
+*.db
+*.db-shm
+*.db-wal
+*.vsidx
 
 # MSBuild Binary and Structured Log
 *.binlog
@@ -52,6 +56,61 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
-/.vs/Ambev.TechnicalChallenge/CopilotIndices/0.2.1657.32929
-/.vs/Ambev.TechnicalChallenge/FileContentIndex
+
+# Visual Studio
+/.vs/Ambev.TechnicalChallenge/v17
 /.vs
+/DeveloperStore/.vs/DeveloperStore/v17
+/DeveloperStore/.vs/DeveloperStore/DesignTimeBuild
+
+# Rider
+.idea/
+*.sln.iml
+
+# Local History for JetBrains IDEs
+.idea/.idea.LocalHistory/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Dotnet specific
+.vscode/
+.vscode/*
+
+# ASP.NET Core
+appsettings*.json
+appsettings*.Development.json
+
+# Entity Framework
+*.edmx.diagram
+*.edmx.sql
+*.edmx
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# StyleCop
+StyleCopReport.xml
+
+# Dotnet tool specific
+**/coverage.opencover.xml
+**/coverage.cobertura.xml
+**/coverage.json
+**/coverage.lcov
+**/coverage.xml
+**/lcov-report/
+**/coverage.info
+**/coverage.opencover.xml
+**/coverage.cobertura.xml
+**/coverage.json
+**/coverage.lcov
+**/coverage.xml
+**/lcov-report/
+**/coverage.info
+/DeveloperStore/.vs/*
